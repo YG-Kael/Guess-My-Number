@@ -120,8 +120,9 @@ h1 {
 
 @media screen and (max-width: 440px) {
   h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     top: 45%;
+    width: 40rem;
   }
 
   .between {
@@ -130,10 +131,10 @@ h1 {
     margin-left: 3rem;
   }
   .again {
-    width: 11rem;
+    width: 9rem;
     height: 4rem;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     top: 0rem;
     margin: 1rem 0rem 4rem 0rem;
   }
@@ -142,7 +143,7 @@ h1 {
     height: 10rem;
   }
   .guess {
-    width: 13rem;
+    width: 16rem;
     height: 8rem;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -158,6 +159,10 @@ h1 {
     margin-top: 5rem;
   }
 
+  .left {
+    margin-right: 0rem;
+   }
+
   .btn {
     /* margin-top: 3rem; */
   }
@@ -165,20 +170,20 @@ h1 {
   .check {
     width: 13rem;
     height: 6rem;
-    padding: 0.5rem;
+    padding: 0rem;
     font-size: 1.5rem;
     margin-top: 3rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .label-score {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 18rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   .label-highscore {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 21rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 }
